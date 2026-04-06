@@ -10,7 +10,7 @@
 *{margin:0;padding:0;box-sizing:border-box}
 html,body{width:100%;min-height:100vh;overflow-x:hidden}
 body{font-family:'Nunito',sans-serif;background:#0a0a12;color:#fff}
-
+ 
 /* ── Shared ── */
 .screen{display:none;min-height:100vh;flex-direction:column;align-items:center;justify-content:center;padding:2rem;text-align:center;position:relative}
 .screen.active{display:flex}
@@ -18,7 +18,7 @@ body{font-family:'Nunito',sans-serif;background:#0a0a12;color:#fff}
 .fade-up{opacity:0;animation:fadeUp .8s ease forwards}
 @keyframes fadeIn{from{opacity:0}to{opacity:1}}
 @keyframes fadeUp{from{opacity:0;transform:translateY(30px)}to{opacity:1;transform:translateY(0)}}
-
+ 
 /* ── S1: Welcome / Login ── */
 #s-welcome{background:linear-gradient(135deg,#0a0a12 0%,#1a1028 50%,#0a0a12 100%)}
 #s-welcome::before{content:'';position:absolute;inset:0;background:radial-gradient(circle at 50% 40%,rgba(120,80,200,0.08) 0%,transparent 60%);pointer-events:none}
@@ -34,7 +34,7 @@ body{font-family:'Nunito',sans-serif;background:#0a0a12;color:#fff}
 .btn-primary:hover{transform:translateY(-2px);box-shadow:0 8px 25px rgba(120,80,200,.3)}
 .btn-primary:active{transform:scale(.98)}
 .login-error{color:#f87171;font-size:.8rem;margin-top:.5rem;min-height:1.2em}
-
+ 
 /* ── S2: Maze ── */
 #s-maze{background:linear-gradient(180deg,#0a0a12,#0d1117)}
 .maze-header h2{font-family:'Playfair Display',serif;font-size:clamp(1.3rem,4vw,1.8rem);margin-bottom:.3rem}
@@ -51,7 +51,7 @@ body{font-family:'Nunito',sans-serif;background:#0a0a12;color:#fff}
 .dpad button:hover{background:rgba(255,255,255,.15)}
 .dpad button:active{background:rgba(120,80,200,.3)}
 .dpad .empty{visibility:hidden}
-
+ 
 /* ── S3: Kiss Gate ── */
 #s-kiss{background:linear-gradient(135deg,#1a0a1e,#2d1035,#1a0a1e)}
 #s-kiss::before{content:'';position:absolute;inset:0;background:radial-gradient(circle at 50% 50%,rgba(220,50,100,0.06) 0%,transparent 60%);pointer-events:none}
@@ -61,7 +61,7 @@ body{font-family:'Nunito',sans-serif;background:#0a0a12;color:#fff}
 .kiss-sub{color:rgba(255,255,255,.55);font-size:1rem;margin-bottom:2rem;max-width:350px;line-height:1.6}
 .btn-kiss{background:linear-gradient(135deg,#dc3268,#e8457a);color:#fff;padding:1rem 2.5rem;border-radius:50px;font-size:1rem}
 .btn-kiss:hover{transform:translateY(-2px);box-shadow:0 8px 25px rgba(220,50,100,.3)}
-
+ 
 /* ── S3b: Married Video ── */
 #s-married{background:linear-gradient(135deg,#1a0a1e,#2d1035,#1a0a1e)}
 #s-married::before{content:'';position:absolute;inset:0;background:radial-gradient(circle at 50% 50%,rgba(200,80,150,0.08) 0%,transparent 60%);pointer-events:none}
@@ -71,7 +71,7 @@ body{font-family:'Nunito',sans-serif;background:#0a0a12;color:#fff}
 .married-after h2{font-family:'Playfair Display',serif;font-size:clamp(1.1rem,3.5vw,1.5rem);color:rgba(255,255,255,.6);margin-bottom:1.5rem}
 .married-after .link-btn{color:#e8457a;font-family:'Nunito',sans-serif;font-size:1rem;font-weight:700;background:none;border:none;cursor:pointer;text-decoration:underline;text-underline-offset:4px;transition:color .3s}
 .married-after .link-btn:hover{color:#f48bab}
-
+ 
 /* ── S4: Gift Box / Rickroll ── */
 #s-rickroll{background:#0a0a12}
 .gift-box{width:120px;height:120px;margin:0 auto 1.5rem;position:relative;cursor:pointer;animation:wobble 1.5s infinite}
@@ -85,7 +85,7 @@ body{font-family:'Nunito',sans-serif;background:#0a0a12;color:#fff}
 .rickroll-video{width:100%;max-width:480px;border-radius:12px;margin:1.5rem auto;display:none}
 .rickroll-msg{display:none;margin-top:1.5rem}
 .rickroll-msg h2{font-family:'Playfair Display',serif;font-size:1.4rem;margin-bottom:1rem}
-
+ 
 /* ── S5: Countdown / Real Gift ── */
 #s-countdown{background:#0a0a12}
 .countdown-text{color:rgba(255,255,255,.5);font-size:.9rem;margin-bottom:1rem}
@@ -96,7 +96,7 @@ body{font-family:'Nunito',sans-serif;background:#0a0a12;color:#fff}
 .real-gift-box .ribbon-v{width:15%;height:100%;background:rgba(255,255,255,.25);position:absolute;left:50%;transform:translateX(-50%)}
 .real-gift-box .ribbon-h{width:110%;height:15%;background:rgba(255,255,255,.25);position:absolute;top:50%;left:-5%;transform:translateY(-50%)}
 .reveal-sub{font-size:.85rem;color:rgba(255,255,255,.5);display:none}
-
+ 
 /* ── S6: Disney Reveal ── */
 #s-reveal{background:linear-gradient(180deg,#0b0033 0%,#1a0a50 30%,#2d1080 60%,#1a0a50 100%);overflow:hidden}
 #s-reveal::before{content:'';position:absolute;inset:0;background:radial-gradient(circle at 50% 30%,rgba(100,60,255,0.15) 0%,transparent 50%);pointer-events:none}
@@ -120,7 +120,7 @@ body{font-family:'Nunito',sans-serif;background:#0a0a12;color:#fff}
 </style>
 </head>
 <body>
-
+ 
 <!-- ═══════ SCREEN 1: Welcome / Login ═══════ -->
 <div class="screen active" id="s-welcome">
   <div class="welcome-icon">&#10024;</div>
@@ -133,7 +133,7 @@ body{font-family:'Nunito',sans-serif;background:#0a0a12;color:#fff}
     <p class="login-error" id="loginError"></p>
   </div>
 </div>
-
+ 
 <!-- ═══════ SCREEN 2: Maze ═══════ -->
 <div class="screen" id="s-maze">
   <div class="maze-header">
@@ -160,7 +160,7 @@ body{font-family:'Nunito',sans-serif;background:#0a0a12;color:#fff}
     </div>
   </div>
 </div>
-
+ 
 <!-- ═══════ SCREEN 3: Kiss Gate ═══════ -->
 <div class="screen" id="s-kiss">
   <div class="kiss-emoji">&#128139;</div>
@@ -168,7 +168,7 @@ body{font-family:'Nunito',sans-serif;background:#0a0a12;color:#fff}
   <p class="kiss-sub">You have to give your incredible husband a kiss</p>
   <button class="btn btn-kiss" id="kissBtn">Click to confirm kiss received</button>
 </div>
-
+ 
 <!-- ═══════ SCREEN 3b: Married Video ═══════ -->
 <div class="screen" id="s-married">
   <h2 class="married-title">I will love you forever</h2>
@@ -177,10 +177,10 @@ body{font-family:'Nunito',sans-serif;background:#0a0a12;color:#fff}
   </video>
   <div class="married-after" id="marriedAfter">
     <h2>Enough of the mushy stuff</h2>
-    <button class="married-after link-btn" id="marriedContinue">Click here to move on!</button>
+    <button class="btn btn-kiss" id="marriedContinue" style="margin-top:1rem">Click here to move on!</button>
   </div>
 </div>
-
+ 
 <!-- ═══════ SCREEN 4: Gift Box / Rickroll ═══════ -->
 <div class="screen" id="s-rickroll">
   <div id="giftWrap1">
@@ -201,7 +201,7 @@ body{font-family:'Nunito',sans-serif;background:#0a0a12;color:#fff}
     <button class="btn btn-primary" style="max-width:280px;margin:1rem auto 0" id="realGiftBtn">Continue</button>
   </div>
 </div>
-
+ 
 <!-- ═══════ SCREEN 5: Countdown / Real Gift ═══════ -->
 <div class="screen" id="s-countdown">
   <p class="countdown-text" id="countdownLabel">Retrieving gift...</p>
@@ -214,7 +214,7 @@ body{font-family:'Nunito',sans-serif;background:#0a0a12;color:#fff}
   </div>
   <p class="reveal-sub" id="revealSub">Tap to reveal your gift</p>
 </div>
-
+ 
 <!-- ═══════ SCREEN 6: Disney Reveal ═══════ -->
 <div class="screen" id="s-reveal">
   <div class="sparkles" id="sparkles"></div>
@@ -233,7 +233,7 @@ body{font-family:'Nunito',sans-serif;background:#0a0a12;color:#fff}
     <div class="footer-msg">Here's to the most magical birthday ever!</div>
   </div>
 </div>
-
+ 
 <script>
 /* ── Helpers ── */
 function showScreen(id){
@@ -243,7 +243,7 @@ function showScreen(id){
   el.classList.add('fade-in');
   window.scrollTo(0,0);
 }
-
+ 
 /* ── S1: Login ── */
 document.getElementById('loginBtn').addEventListener('click',()=>{
   const u=document.getElementById('username').value.trim().toLowerCase();
@@ -254,11 +254,11 @@ document.getElementById('loginBtn').addEventListener('click',()=>{
   startMaze();
 });
 document.getElementById('password').addEventListener('keydown',e=>{if(e.key==='Enter')document.getElementById('loginBtn').click()});
-
+ 
 /* ── S2: Maze ── */
 const COLS=10,ROWS=10,CELL=30;
 let maze=[],playerX=0,playerY=0,moves=0,mazeTimer=null,mazeSeconds=0,mazeStarted=false;
-
+ 
 function generateMaze(){
   maze=[];
   for(let y=0;y<ROWS;y++){maze[y]=[];for(let x=0;x<COLS;x++){maze[y][x]={top:true,right:true,bottom:true,left:true,visited:false}}}
@@ -282,7 +282,7 @@ function generateMaze(){
     }else{const prev=stack.pop();cx=prev.x;cy=prev.y}
   }
 }
-
+ 
 function drawMaze(){
   const c=document.getElementById('mazeCanvas');
   c.width=COLS*CELL;c.height=ROWS*CELL;
@@ -304,7 +304,7 @@ function drawMaze(){
   ctx.fillStyle='#a855f7';
   ctx.beginPath();ctx.arc(playerX*CELL+CELL/2,playerY*CELL+CELL/2,CELL/3,0,Math.PI*2);ctx.fill();
 }
-
+ 
 function startMaze(){
   generateMaze();playerX=0;playerY=0;moves=0;mazeSeconds=0;
   document.getElementById('moveCount').textContent='0';
@@ -312,7 +312,7 @@ function startMaze(){
   drawMaze();
   mazeTimer=setInterval(()=>{mazeSeconds++;const m=String(Math.floor(mazeSeconds/60)).padStart(2,'0');const s=String(mazeSeconds%60).padStart(2,'0');document.getElementById('mazeTime').textContent=m+':'+s},1000);
 }
-
+ 
 function movePlayer(dx,dy){
   const cell=maze[playerY][playerX];
   if(dx===0&&dy===-1&&cell.top)return;
@@ -324,7 +324,7 @@ function movePlayer(dx,dy){
   drawMaze();
   if(playerX===COLS-1&&playerY===ROWS-1){clearInterval(mazeTimer);setTimeout(()=>showScreen('s-kiss'),500)}
 }
-
+ 
 /* Keyboard controls */
 document.addEventListener('keydown',e=>{
   if(!document.getElementById('s-maze').classList.contains('active'))return;
@@ -333,7 +333,7 @@ document.addEventListener('keydown',e=>{
   if(e.key==='ArrowDown')movePlayer(0,1);
   if(e.key==='ArrowLeft')movePlayer(-1,0);
 });
-
+ 
 /* Swipe controls */
 let touchStartX=0,touchStartY=0;
 document.addEventListener('touchstart',e=>{touchStartX=e.touches[0].clientX;touchStartY=e.touches[0].clientY},{passive:true});
@@ -345,7 +345,7 @@ document.addEventListener('touchend',e=>{
   if(Math.abs(dx)>Math.abs(dy)){dx>0?movePlayer(1,0):movePlayer(-1,0)}
   else{dy>0?movePlayer(0,1):movePlayer(0,-1)}
 });
-
+ 
 /* ── S3: Kiss Gate ── */
 document.getElementById('kissBtn').addEventListener('click',()=>{
   showScreen('s-married');
@@ -355,10 +355,10 @@ document.getElementById('kissBtn').addEventListener('click',()=>{
     document.getElementById('marriedAfter').style.display='block';
   });
 });
-
+ 
 /* ── S3b: Married → Rickroll ── */
 document.getElementById('marriedContinue').addEventListener('click',()=>{showScreen('s-rickroll')});
-
+ 
 /* ── S4: Rickroll ── */
 document.getElementById('giftBox1').addEventListener('click',()=>{
   document.getElementById('giftWrap1').style.display='none';
@@ -370,7 +370,7 @@ document.getElementById('giftBox1').addEventListener('click',()=>{
   },3000);
 });
 document.getElementById('realGiftBtn').addEventListener('click',()=>{showScreen('s-countdown');startCountdown()});
-
+ 
 /* ── S5: Countdown ── */
 function startCountdown(){
   let count=5;
@@ -394,7 +394,7 @@ function startCountdown(){
     }
   },1000);
 }
-
+ 
 /* ── S6: Disney Reveal ── */
 function initReveal(){
   /* Sparkles */
